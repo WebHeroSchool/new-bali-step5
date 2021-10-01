@@ -509,7 +509,7 @@ body{
                             .header_burger span {
                                 position: absolute;
                                 background-color: ivory;
-                                left: 35px;
+                                left: 31px;
                                 width: 22px;
                                 height: 2px;
                                 top: 11px;
@@ -523,7 +523,7 @@ body{
                                 position: absolute;
                                 width: 22px;
                                 height: 2px;
-                                left: 35px;
+                                left: 31px;
                                 transition: all 0.3s ease 0s;
                             }
                         
@@ -541,14 +541,14 @@ body{
                         
                             .header_burger.active:before {
                                 transform: rotate(45deg);
-                                left: 44px;
+                                left: 40px;
                                 top: -14px;
                                 background-color: black;
                             }
                         
                             .header_burger.active:after {
                                 transform: rotate(-45deg);
-                                left: 44px;
+                                left: 40px;
                                 top: -14px;
                                 background-color: black;
                             }
